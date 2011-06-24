@@ -137,6 +137,10 @@ div.add_button {
 div.add_button input {
     font-size:80%;
 }
+div.refresh_membership {
+    float:right;
+    padding-right:15px;
+}
 /* column filter */
 div.column_filter {
     float:right;
@@ -292,6 +296,7 @@ div.right_column div.field input {
 div.right_column div.column_limit {
     float:right;
     margin-right:24px;
+    padding-top:3px;
 }
 div.right_column div.column_limit label {
     display:inline;

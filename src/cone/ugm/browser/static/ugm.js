@@ -272,6 +272,9 @@
             $('#list_all', context)
                 .unbind()
                 .bind('click', ugm.listing_related_cb);
+            $('#refresh_membership', context)
+                .unbind()
+                .bind('click', ugm.listing_related_cb, $('#list_all'));
         },
         
         // callback when related filter gets toggled

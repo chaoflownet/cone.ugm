@@ -18,6 +18,14 @@
              ajax:target="${context.nodeurl}" />
     </div>
     
+    <div class="refresh_membership">
+      <input id="refresh_membership"
+             type="button"
+             name="refresh_membership"
+             value="Refresh"
+             ajax:target="${context.nodeurl}" />
+    </div>
+    
     <div class="clear"></div>
     
     <tal:listing replace="structure tile('columnlisting')" />
